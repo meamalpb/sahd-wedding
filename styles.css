@@ -1,11 +1,11 @@
 :root {
-  --bg: #231816;
-  --bg-deep: #120b0a;
-  --text: #faf0e7;
-  --muted: rgba(250, 240, 231, 0.72);
-  --accent: #d7a186;
-  --accent-soft: #f3d8ca;
-  --line: rgba(236, 196, 175, 0.18);
+  --bg: #0f221e;
+  --bg-deep: #091311;
+  --text: #f9f0df;
+  --muted: rgba(249, 240, 223, 0.72);
+  --accent: #d8b97d;
+  --accent-soft: #f3dfb4;
+  --line: rgba(236, 209, 157, 0.18);
   --shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
 }
 
@@ -22,7 +22,7 @@ body {
 body {
   font-family: "Avenir Next", "Segoe UI", sans-serif;
   color: var(--text);
-  background: linear-gradient(160deg, #3a2825 0%, var(--bg) 52%, var(--bg-deep) 100%);
+  background: linear-gradient(160deg, #17332d 0%, var(--bg) 52%, var(--bg-deep) 100%);
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -361,11 +361,11 @@ h2 .name-join {
   padding: 18px;
   transform: rotateY(180deg) translateZ(1px);
   background:
-    radial-gradient(circle at top center, rgba(215, 161, 134, 0.12), transparent 12%),
-    radial-gradient(circle at bottom right, rgba(243, 216, 202, 0.06), transparent 36%),
+    radial-gradient(circle at top center, rgba(216, 185, 125, 0.1), transparent 12%),
+    radial-gradient(circle at bottom right, rgba(243, 223, 180, 0.05), transparent 36%),
     linear-gradient(rgba(255, 248, 235, 0.025), rgba(255, 248, 235, 0.025)),
-    radial-gradient(circle, rgba(243, 216, 202, 0.04) 1px, transparent 1px),
-    linear-gradient(180deg, rgba(44, 28, 26, 0.99), rgba(18, 11, 10, 1));
+    radial-gradient(circle, rgba(243, 223, 180, 0.035) 1px, transparent 1px),
+    linear-gradient(180deg, rgba(18, 41, 35, 0.99), rgba(9, 19, 17, 1));
   background-size: auto, auto, auto, 18px 18px, auto;
   border: 1px solid var(--line);
 }
